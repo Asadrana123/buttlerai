@@ -4,8 +4,7 @@
     height: 50px;
     overflow: hidden;
     position: relative;
-    background-color: #1f1f1f; /* Background color */
-    color: #fff; /* Text color */
+    color: black; /* Text color */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +12,7 @@
     padding-bottom: 10px;
     border-radius: 15px;
     padding-left: 40px;
+    border:1px solid  #3e94fa;
   }
   
   /* Slider content container */
@@ -56,6 +56,6 @@
   .slider-icon {
     margin-right: 10px; /* Space between icon and text */
     font-size: 18px; /* Adjust icon size */
-    color: #fff; /* Icon color */
+    color: black; /* Icon color */
   }
   

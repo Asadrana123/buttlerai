@@ -8,7 +8,13 @@ h1{
   font-size: 48px;
   font-weight: 600;
   margin-bottom: -10px;
+  background-color: #3e94fa;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 p{
    font-size: 30px;
+   background-color: #3e94fa;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
