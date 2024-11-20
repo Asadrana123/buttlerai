@@ -1,0 +1,27 @@
+.waitlist-button {
+    background: linear-gradient(145deg, #292929, #1f1f1f); 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 25px; 
+    font-weight: 500; 
+    padding: 18px 24px; 
+    text-align: center; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 
+                inset 0 -1px 1px rgba(255, 255, 255, 0.2); 
+    cursor: pointer; 
+    transition: all 0.3s ease-in-out; 
+    margin-top: 30px;
+  }
+  .waitlist-button:hover {
+    background: linear-gradient(145deg, #1f1f1f, #292929); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4),
+                inset 0 -1px 2px rgba(255, 255, 255, 0.3); 
+    transform: scale(1.05); 
+  }
+  .waitlist-button:active {
+    background: linear-gradient(145deg, #1a1a1a, #292929); 
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5); 
+    transform: scale(0.98); 
+  }
+  
